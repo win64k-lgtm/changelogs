@@ -1,1 +1,5 @@
-none
+{
+  "version": "v1.2.5",
+  "users_online": 247,
+  "changelog": "- Fixed injection issues\n- Added new anti-detection\n- Improved performance\n- Updated for latest game version"
+}

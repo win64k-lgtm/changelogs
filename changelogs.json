@@ -1,6 +1,8 @@
-{
-  "version": "v1.2.5",
-  "users_online": 78,
-  "changelog_v7a": "- Fixed ARM injection\n- Android 12+ support\n- New bypass",
-  "changelog_x86": "- Fixed emulator detection\n- BlueStacks support\n- LDPlayer compatible"
-}
+$data = [
+  "version" => "v1.2.5",
+  "users_online" => rand(50, 150),
+  "changelog_v7a" => "- Fixed ARM injection\n- Android 12+ support\n- New bypass",
+  "changelog_x86" => "- Fixed emulator detection\n- BlueStacks support\n- LDPlayer compatible"
+];
+
+echo json_encode($data, JSON_PRETTY_PRINT);
